@@ -1,0 +1,28 @@
+* {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+header {
+  border: 2px solid blue;
+  height: 200px;
+}
+
+main {
+  border: 2px solid blue;
+  height: 400px;
+}
+
+footer {
+  border: 2px solid blue;
+  height: 100px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+}

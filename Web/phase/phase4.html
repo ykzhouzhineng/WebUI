@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable=no">
+    <link rel="stylesheet" href="../css/phase4.css">
+    <title>UI设计之鼠标模型的分析和控制</title>
+</head>
+
+<body>
+    <header>
+        <p id="book">
+            《我的毕设题目》
+        </p>
+    </header>
+    <nav>
+        <button id="prev">向前</button>
+        <button id="next">向后</button>
+        <button>其他</button>
+    </nav>
+
+    <main id="main">
+        <div id="bookface">
+            这是书的封面图<br>
+            在此对象范围拖动鼠标(本例触屏无效)
+        </div>
+    </main>
+
+    <footer>
+        CopyRight 周志能 江西科技师范大学 2024--2025
+    </footer>
+    <div id="aid">
+        <p>用户键盘响应区</p>
+        <p id="keyboard"></p>
+    </div>
+    <script src="../js/phase4.js"></script>
+</body>
+
+</html>
+<!-- <script>
+    var myDiv = document.getElementById('bookface');
+    var images = [
+        "../imgs/back.jpg",
+        "../imgs/CS.jpg",
+        "../imgs/CSS.jpg"
+
+    ];
+    //当前位置
+    var currentImageIndex = 0;
+
+    document.getElementById("next").onclick = function () {
+        currentImageIndex++;
+        if (currentImageIndex == images.length) currentImageIndex = 0;
+        myDiv.style.backgroundImage = 'url(' + images[currentImageIndex] + ')';
+    };
+    document.getElementById("prev").onclick = function () {
+        currentImageIndex--;
+        if (currentImageIndex == -1)currentImageIndex = images.length - 1;
+        myDiv.style.backgroundImage = 'url(' + images[currentImageIndex] + ')';
+     
+    };
+
+</script> -->

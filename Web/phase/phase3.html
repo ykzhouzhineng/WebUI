@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable=no">
+    <!-- 
+    增加 user-scalable=no，可以让移动设备的屏幕宽度和高度，与window对象的innerWidth和innerHeight精确对应
+   -->
+    <link rel="stylesheet" href="../css/phase3.css">
+    <title>响应式设计（宽屏和窄屏）</title>
+</head>
+
+<body>
+    <header>
+        <p id="book">
+            《响应式设计（宽屏和窄屏）》
+        </p>
+    </header>
+    <nav>
+        <button>向前</button>
+        <button>向后</button>
+        <button>暂停</button>
+    </nav>
+
+    <main id="main">
+        <div id="bookface">
+            书的封面图
+        </div>
+    </main>
+
+    <footer>
+        CopyRight from 周志能 江西科技师范大学 2022--2025
+    </footer>
+    <div id="aid">
+        <p>用户键盘响应区</p>
+        <p id="keyboard"></p>
+    </div>
+    <script src="../js/phase3.js"></script>
+</body>
+</html>

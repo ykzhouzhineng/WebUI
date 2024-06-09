@@ -1,0 +1,61 @@
+* {
+    margin: 10px;
+    text-align: center;
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
+
+header {
+    border: 3px solid green;
+    height: 10%;
+    font-size: 1em;
+}
+
+nav {
+    border: 3px solid green;
+    height: 10%;
+}
+
+button{
+    font-size: 1em;
+}
+
+main {
+    border: 3px solid green;
+    height: 70%;
+    font-size: 0.8em;
+    position: relative;
+}
+
+#box {
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+
+footer {
+    border: 3px solid green;
+    height: 5%;
+    font-size: 0.7em;
+}
+
+
+#aid {
+    position: absolute;
+    border: 3px solid blue;
+    top: 0px;
+    left: 600px;
+}
+
+#bookface {
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+    background-color: blanchedalmond;
+    margin: auto;
+    background-image: url("../imgs/CSS.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 10px;
+    text-align: center;
+}
+
+header {
+    border: 2px solid blue;
+    height: 15%;
+    font-size: 1.66em;
+
+}
+
+main {
+    border: 2px solid blue;
+    height: 70%;
+    font-size: 1.2em;
+
+}
+
+nav {
+    border: 2px solid blue;
+    height: 10%;
+}
+
+nav button {
+    font-size: 1.1em;
+}
+
+footer {
+    border: 2px solid blue;
+    height: 5%;
+}
