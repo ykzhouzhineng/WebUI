@@ -97,4 +97,34 @@ function $(ele) {
         }
     }
 } //end of $
+var myDiv = document.getElementById('bookface');
+var images = [
+    "../imgs/css.jpg",
+    "../imgs/CS.jpg",
+    "../imgs/CT.jpg",
+    "../imgs/GIT.jpg",
+    "../imgs/internet.jpg",
+    "../imgs/javaScript.jpg",
+    "../imgs/learnCSS.jpg",
+    "../imgs/linuxCMD.jpg",
+    "../imgs/STEM.jpg",
+    "../imgs/ted.jpg",
+    "../imgs/UML.jpg",
+    "../imgs/videos.jpg",
+    "../imgs/webProgramming.jpg",
+];
+//当前位置
+var currentImageIndex = 0;
+
+document.getElementById("next").onclick = function () {
+    currentImageIndex++;
+    if (currentImageIndex == images.length) currentImageIndex = 0;
+    myDiv.style.backgroundImage = 'url(' + images[currentImageIndex] + ')';
+};
+document.getElementById("prev").onclick = function () {
+    currentImageIndex--;
+    if (currentImageIndex == -1) currentImageIndex = images.length - 1;
+    myDiv.style.backgroundImage = 'url(' + images[currentImageIndex] + ')';
+
+};
 
