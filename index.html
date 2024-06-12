@@ -1,73 +1,45 @@
-* {
-    margin: 10px;
-    text-align: center;
-}
+<!doctype html>
+<html lang="en">
 
-header {
-    border: 3px solid green;
-    height: 10%;
-    font-size: 1em;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable=no">
+    <link rel="stylesheet" href="../css/phase6.css">
+    <title>UI的个性化键盘控制——巧妙应用keydown和keyup键盘底层事件</title>
+</head>
 
-}
-
-nav {
-    border: 3px solid green;
-    height: 10%;
-}
-
-main {
-    border: 3px solid green;
-    height: 70%;
-    font-size: 0.8em;
-    position: relative;
-}
+<body>
+    <header>
+        <p id="book">
+            《我的毕设题目》
+        </p>
+    </header>
+    <nav>
+        <button id = "prev">向前</button>
+        <button id = "next">向后</button>
+        <button>其他</button>
+    </nav>
 
 
-footer {
-    border: 3px solid green;
-    height: 10%;
-    font-size: 0.7em;
-}
+    <main id="main">
+        <div id="bookface">
+            本利代码的运行需要超过1千像素宽度的宽屏<br>
+            建议使用有键盘的PC运行和调试代码<br>
+            当然拖动/滑动超过100像素的UI互动依然有效！
+        </div>
+    </main>
 
-body {
-    position: relative;
-}
+    <footer>
+        CopyRight 周志能 江西科技师范大学 2024--2025
 
-button {
-    font-size: 1em;
-}
+    </footer>
+    <div id="aid">
+        用户键盘响应区
+        <p id="typeText"></p>
+        <p id="keyStatus"></p>
+    </div>
+    <script src="../js/phase6.js"></script>
 
-#bookface {
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    border: 1px solid red;
-    background-color: blanchedalmond;
-    left: 7%;
-    top: 7%;
-    background-image: url("../imgs/CSS.jpg");
-    background-size: cover;
-}
+</body>
 
-#aid {
-    position: absolute;
-    border: 3px solid blue;
-    top: 0px;
-    left: 600px;
-}
-
-#typeText {
-    border: 1px solid blue;
-    padding: 0.2em;
-    color: gray;
-}
-
-#keyStatus {
-    position: absolute;
-    border: 1px solid blue;
-    width: 90%;
-    right: 0;
-    bottom: 0;
-    font-size: 0.6em;
-    padding: 0.5em;
-}
+</html>
