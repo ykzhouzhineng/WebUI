@@ -150,10 +150,10 @@ function $(ele) {
 
 var myDiv = document.getElementById('bookface');
 var images = [
-    "../imgs/css.jpg",
+    "../imgs/CSS.jpg",
     "../imgs/CS.jpg",
     "../imgs/CT.jpg",
-    "../imgs/GIT.jpg",
+    "../imgs/Git.jpg",
     "../imgs/internet.jpg",
     "../imgs/javaScript.jpg",
     "../imgs/learnCSS.jpg",
